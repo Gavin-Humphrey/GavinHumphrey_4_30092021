@@ -18,7 +18,7 @@ a:hover {
 .focusedInputBlack:focus {
   border-color: #313030;
   outline: 0;
-  outline: thin dotted \9;
+  outline: thin dotted;
   -moz-box-shadow: 0 0 8px #313030;
   box-shadow: 0 0 8px #313030!important;  
 }
@@ -60,6 +60,7 @@ a:hover {
 }
 .bloc-sm p {
   color: #000000 !important;
+  font-size: 14px;
 }
 .bg-center,
 .bg-l-edge,
@@ -82,25 +83,9 @@ a:hover {
 .bg-t-edge {
   background: top no-repeat;
 }
-/*.bloc-bg-texture::before {
-  content: "";
-  background-size: 2px 2px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.texture-paper::before {
-  background: url("img/texture-paper.png");
-  background-size: 280px 280px;
-}*/
 .b-parallax {
   background-attachment: fixed;
 }
-/*.d-bloc{
-	color:rgba(255,255,255,.7);
-}*/
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
 }
@@ -130,23 +115,6 @@ a:hover {
 .d-bloc p a {
   color: #313030;
 }
-/*.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: #ffffff;
-    overflow-x: hidden;
-}*/
 .d-bloc a:hover .fa-twitter {
   color: #1DA1F2;
   transform: scale(1.3);
@@ -177,25 +145,6 @@ a:hover {
   border-radius: 50%;
   padding: 1rem;
 }
-/*.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl {
-  border: solid 2px;
-  border-radius: 50%;
-  padding: 1rem;
-  transition: 300ms ease-in-out;
-}*/
-/*.d-bloc a:focus .icon-sm,
-.d-bloc a:focus .icon-md,
-.d-bloc a:focus .icon-lg,
-.d-bloc a:focus .icon-xl {
-  border: solid 2px;
-  border-radius: 50%;
-  padding: 1rem;
-  transition: 300ms ease-in-out;
-  color: #a42a42;
-}*/
 .d-bloc .navbar-toggle .icon-bar {
   background: rgba(255, 255, 255, 1);
 }
@@ -289,7 +238,7 @@ a:hover {
 .l-bloc .btn-wire:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
-}/* to here too */
+}
 .voffset {
   margin-top: 30px;
 }
@@ -765,12 +714,6 @@ h4 {
   font-weight: 900;
   text-decoration: underline !important;
 }
-/*.bgc-white {
-  background-color: #ffffff;
-}*/
-/*.bgc-dark-slate-blue {
-  background-color: #364577;
-}*/
 .bgc-atomic-tangerine {
   background-color: #F3976C;
 }
@@ -801,35 +744,6 @@ h4 {
 #bloc-1-hero {
   min-height: 476.033px;
 }
-/*.ltc-white {
-  display: inline-block;
-  color: #ffffff !important;
-  font-size: 1.5rem;
-  padding: 2rem;
-  margin-top: 3rem;
-  border: solid 3px;
-  border-style: dotted;
-}
-.ltc-white:hover {
-  color: #f4fcfc !important;
-}
-.ltc-atomic-tangerine {
-  color: #f3976c !important;
-}
-.ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
-}*/
-/*.icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
-}*/
-/*.bg-dots-bg {
-  background-image: url("img/dots-bg.png");
-}*/
-
-/*.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}*/
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.jpg");
 }
@@ -841,13 +755,10 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   width: 150px;
-  /*width: 25rem;*/
-  /*text-align: justify;*/
 }
 .partners_title{
   font-size: 2rem;
   font-weight: bolder;
-  /*margin-left: 2.5rem;*/
   margin-left: -40px;
   width: 300px;
 }
