@@ -480,14 +480,16 @@ cite {
   z-index: 500;
   opacity: 1;
   transition: all 0.5s ease-in-out;
-  background-color:#F3976C;
-  border: solid 3px #ffffff;
+  background-color:#5a0253;
+  border: solid 2px #ffffff;
 }
 .scrollToTop:hover {
   background-color:  #5a0253;
+  border: solid 3px #ffffff;
 }
 .scrollToTop:focus {
   background-color: #5a0253;
+  border: solid 3px #ffffff;
 }
 .scrollToTop span {
   margin-top: 6px;
@@ -734,7 +736,7 @@ h4 {
 .btn-atomic-tangerine {
   background: #5a0253 !important;
   color: #ffffff !important;
-  border: solid 4px transparent;
+  border: solid 2px transparent;
 }
 #cta-hero {
   color: #ffffff !important;
@@ -743,14 +745,14 @@ h4 {
   color: #ffffff !important;
 }
 .btn-atomic-tangerine:hover {
-  background: #F3976C!important;
+  background: #5a0253!important;
   color: #ffffff !important;
   border: solid 2px #F3976C !important;
 }
 .btn-atomic-tangerine:focus {
-  background: #F3976C !important;
+  background: #5a0253 !important;
   color: #ffffff !important;
-  border: solid 3px #F3976C;
+  border: solid 2px #F3976C;
 }
 #bloc-1-hero {
   min-height: 476.033px;
