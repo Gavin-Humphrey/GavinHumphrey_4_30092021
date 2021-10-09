@@ -269,9 +269,11 @@ a:hover {
   font-weight: 600;
   line-height: 44px;
 }
+
+
 .navbar-brand img {
   margin: 0 5px 0 20px;
-  display: inline;
+  display: inline-block;
   max-height: 200px;
 }
 .navbar-brand img:hover{
@@ -477,9 +479,9 @@ cite {
   right: 20px;
   z-index: 500;
   opacity: 1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color:#F3976C;
-  border: solid 2px #ffffff;
+  border: solid 3px #ffffff;
 }
 .scrollToTop:hover {
   background-color:  #5a0253;
@@ -720,26 +722,35 @@ h4 {
 .bgc-atomic-tangerine--color {
   background-color: #f3976c;
 }
-.tc-white {
-  color: #F3976C !important;
+.col-sm-12 h2 {
+  color: #ffffff !important;
+}
+.col-sm-12 .btn {
+  color: #ffffff !important;
 }
 .tc-image {
   color: #313030 !important;
 }
 .btn-atomic-tangerine {
-  background: #F3976C;
-  color: #313030 !important;
-  border: solid 2px transparent;
+  background: #5a0253 !important;
+  color: #ffffff !important;
+  border: solid 4px transparent;
+}
+#cta-hero {
+  color: #ffffff !important;
+}
+#form_1 button {
+  color: #ffffff !important;
 }
 .btn-atomic-tangerine:hover {
-  background: #5a0253 !important;
+  background: #F3976C!important;
   color: #ffffff !important;
-  border: solid 2px #F3976C;
+  border: solid 2px #F3976C !important;
 }
 .btn-atomic-tangerine:focus {
-  background: #5a0253 !important;
+  background: #F3976C !important;
   color: #ffffff !important;
-  border: solid 2px #F3976C;
+  border: solid 3px #F3976C;
 }
 #bloc-1-hero {
   min-height: 476.033px;
